@@ -21,3 +21,11 @@ Welcome to the Django E-commerce Project! This project is a full-featured e-comm
    ```bash
    git clone https://github.com/GjurgjicaM/Django_Project_Ecommerce.git
    cd Django_Project_Ecommerce
+
+2. Install dependencies:
+   ```bash
+    pip install -r requirements.txt
+3. Run migrations and start the server:
+   ```bash
+   python manage.py migrate
+   python manage.py runserver
